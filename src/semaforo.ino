@@ -52,4 +52,18 @@ void loop() {
   digitalWrite(5, HIGH);
   delay(2000);
 
+    // Turno 3 paola
+  apagarTodo();
+  digitalWrite(13, HIGH);
+  digitalWrite(10, HIGH);
+  digitalWrite(9, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(3, HIGH);
+  delay(5000);
+
+  apagarTodo();
+  digitalWrite(13, HIGH);
+  digitalWrite(9, HIGH);
+  digitalWrite(4, HIGH);
+  delay(2000);
 }
