@@ -36,4 +36,20 @@ void loop() {
   digitalWrite(9, HIGH);
   digitalWrite(5, HIGH);
   delay(2000);
+
+  //turno 2 saraaa :)
+  apagarTodo();
+  digitalWrite(13, HIGH);
+  digitalWrite(10, HIGH);
+  digitalWrite(7, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(2, HIGH);
+  delay(5000);
+
+  apagarTodo();
+  digitalWrite(13, HIGH);
+  digitalWrite(8, HIGH);
+  digitalWrite(5, HIGH);
+  delay(2000);
+
 }
