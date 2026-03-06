@@ -1,4 +1,4 @@
-//1. Commit by Samul Peña
+//1. Commit by Samuel Peña
 void setup()
 {
   pinMode(13, OUTPUT);
