@@ -23,5 +23,17 @@ void apagarTodo()
 }
 
 void loop() {
-  // Próximas implementaciones del loop
+  apagarTodo();
+  digitalWrite(11, HIGH);
+  digitalWrite(9, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(2, HIGH);
+  delay(5000);
+
+  apagarTodo();
+  digitalWrite(12, HIGH);
+  digitalWrite(9, HIGH);
+  digitalWrite(5, HIGH);
+  delay(2000);
 }
