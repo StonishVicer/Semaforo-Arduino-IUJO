@@ -23,6 +23,7 @@ void apagarTodo()
 }
 
 void loop() {
+  //turno 1 sair :3:3:3:3
   apagarTodo();
   digitalWrite(11, HIGH);
   digitalWrite(9, HIGH);
